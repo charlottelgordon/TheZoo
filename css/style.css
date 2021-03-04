@@ -1,0 +1,54 @@
+body{
+  background: white;
+}
+
+nav {
+  background: orange;
+  color: black;
+  text-align: center;
+}
+
+h1{
+  color: orange;
+  text-align: center;
+}
+
+ol li{
+  font-weight: normal;
+  color: magenta;
+}
+
+.urgent {
+  font-size:1.5em;
+  font-style: bold;
+  color: orange;
+}
+
+.blue{
+  color: blue;
+}
+
+h3{
+  text-align: center;
+}
+
+
+
+p{
+  font-weight: normal;
+}
+
+
+.responsive{
+  width: 100%
+}
+
+.sidebyside img{
+  width: 48%
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: blue;
+  }
+}
